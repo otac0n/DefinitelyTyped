@@ -147,7 +147,7 @@ declare namespace Q {
          */
         isPending(): boolean;
 
-        valueOf(): any;
+        valueOf(): T;
 
         /**
          * Returns a "state snapshot" object, which will be in one of three forms:
